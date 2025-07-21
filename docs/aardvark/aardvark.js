@@ -21,8 +21,8 @@ function endMenu() {
 function buildTopMenus() {
     return beginMenu()
         + buildLink('/index.html', 'Home')
-        + buildLink('/test.html', 'Test')
         + buildLink('/topics/', 'Topics')
+        + buildLink('/about.html', 'About&nbsp;Us')
         + endMenu();
 }
 
@@ -60,7 +60,7 @@ function footer() {
 </div>
 
 <div id="footer">
-  <p class="copyright">(C) 2025 Averemo - All Rights Reserved - <a href="/contacts.php">Contact Us</a></p>
+  <p class="copyright">(C) 2025 Averemo - All Rights Reserved</p>
 </div>
 <!-- end container div ******************************** -->
 </div>
