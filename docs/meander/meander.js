@@ -23,6 +23,7 @@ function buildTopMenus() {
         + buildLink('/index.html', 'Home')
         + buildLink('/topics/', 'Topics')
         + buildLink('/about.html', 'About&nbsp;Us')
+        + buildLink('/', '')
         + endMenu();
 }
 
@@ -37,15 +38,18 @@ function header() {
     let topHTML = `
 <div id="container">
 <div id="header">
-  <div id="leftheader"><a href="${getBase()}/"> <img src="${getBase()}/images/flag_cropped.png" style="width:50%"></a></div>
+  <div id="leftheader">
+      <a href="${getBase()}/"> <img src="${getBase()}/images/flag_cropped.png" style="width:50vw"></a>
+  </div>
   <div id="rightheader">
     <h1>Averemo</h1>
-    <h2>... shared truth ...</h2>
+    <h2>- shared truth -</h2>
   </div>
+  <br class="clearfloat"/>
 </div>
-<!-- Left Side Navigation ******************************** -->
-<div id="leftside">
-  <div id="leftside_inner">${buildTopMenus()} </div>
+<!-- Navigation Bar ******************************** -->
+<div id="topnav">
+  ${buildTopMenus()}
 </div>
 
 <div id="content">

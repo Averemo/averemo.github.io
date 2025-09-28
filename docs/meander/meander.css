@@ -1,7 +1,7 @@
 /* CSS Document */
 
 
-/* Aardvark specific styles, mostly layout and nav bar styles.  ================= */
+/* Meander specific styles, mostly layout and nav bar styles.  ================= */
 p.author {
 	font-style: normal;
 	text-align: right;
@@ -51,7 +51,7 @@ p.navbar {
 }
 p.copyright {
 	font-family: verdana;
-	font-size: 80%;
+	font-size: 3vw;
 }
 p.sequence {
 	font-weight: bold;
@@ -87,7 +87,6 @@ p.sequence {
 	-webkit-border-radius:10px;
 	-khtml-border-radius:10px;
 	border-radius:10px;
-	/*behavior:url("/aardvark/border-radius.htc"); */
 
 	padding: 10px;
 	background-color: #6699CC;
@@ -137,7 +136,7 @@ blockquote {
 }
 #header {
 	background: #FFF;
-	height: 120px;
+/*	height: 120px; */
 	margin-bottom: 5px;
 	border-bottom-style: none;
 	margin-left: auto;
@@ -147,7 +146,7 @@ blockquote {
 	float: left;
 	padding-top: 8px;
 }
-#midtheader {
+#midheader {
 	margin-top: 0;
 	margin-right: 30%;
 	margin-bottom: 0;
@@ -161,12 +160,13 @@ blockquote {
 	margin-top: 0;
 	padding-left: 5.0em;
 	color: #33C;
-	font-size: 150%;
+	font-size: 5vw;
 }
 #header h2 {
 	margin-top: 0;
 	padding-left: 5.0em;
 	color: #33C;
+	font-size: 3vw;
 }
 #rightbox {
 	float: right;
@@ -205,6 +205,7 @@ blockquote {
 	padding-top: 0.0em;
 	padding-bottom: 0.0em;
 	border-left: 1px solid black;
+	font-size: 4vw;
 }
 #topnav a:link {
 	color: #128;
@@ -311,13 +312,13 @@ blockquote {
 /********************************************************** content */
 #content {
 	margin-top: 0;
-	margin-right: 180px;  /* Should match width in rightside id. */
+	margin-right: 0;
 	margin-bottom: 0;
-	margin-left: 8em;  /* Should match width in leftside id. */
+	margin-left: 0;
 	padding: 16px;
-	line-height: 1.1em;
+/*	line-height: 1.1em; */
 	color: #444444;
-	font-size: .9em;
+	font-size: 3vw;
 }
 #content form table tbody tr td div {
 	color: #444444;
