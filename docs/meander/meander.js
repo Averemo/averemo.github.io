@@ -37,7 +37,7 @@ function header() {
     let topHTML = `
 <div id="container">
 <div id="header">
-  <div id="leftheader"><a href="${getBase()}/"> <img src="${getBase()}/images/flag_cropped.png" width="400" height="100" border="0"></a></div>
+  <div id="leftheader"><a href="${getBase()}/"> <img src="${getBase()}/images/flag_cropped.png" style="width:50%"></a></div>
   <div id="rightheader">
     <h1>Averemo</h1>
     <h2>... shared truth ...</h2>
