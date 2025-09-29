@@ -51,7 +51,6 @@ p.navbar {
 }
 p.copyright {
 	font-family: verdana;
-	font-size: 3vw;
 }
 p.sequence {
 	font-weight: bold;
@@ -122,11 +121,12 @@ blockquote {
 	background-color: #FFF;
 	margin: 0;
 	padding: 0;
-	max-width: 1250px;
+	max-width: 1500px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: left;
 }
+
 .clearfloat {
 	/* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
 	clear:both;
@@ -134,9 +134,9 @@ blockquote {
 	font-size: 1px;
 	line-height: 0px;
 }
+
 #header {
 	background: #FFF;
-/*	height: 120px; */
 	margin-bottom: 5px;
 	border-bottom-style: none;
 	margin-left: auto;
@@ -160,22 +160,24 @@ blockquote {
 	margin-top: 0;
 	padding-left: 5.0em;
 	color: #33C;
-	font-size: 5vw;
+	font-size: 4vw;
 }
 #header h2 {
 	margin-top: 0;
 	padding-left: 5.0em;
 	color: #33C;
-	font-size: 3vw;
+	font-size: 2vw;
 }
 #rightbox {
 	float: right;
 	width: 240px;
 	background-color:#FFC;
 }
- @media screen {
-/********************************************************** header */
 
+/********************************************************** SCREEN */
+@media screen {
+
+/********************************************************** header */
 #rightheader {
 	float: right;
 	padding-top: 8px;
@@ -205,7 +207,7 @@ blockquote {
 	padding-top: 0.0em;
 	padding-bottom: 0.0em;
 	border-left: 1px solid black;
-	font-size: 4vw;
+	font-size: 16px;
 }
 #topnav a:link {
 	color: #128;
@@ -318,8 +320,9 @@ blockquote {
 	padding: 16px;
 /*	line-height: 1.1em; */
 	color: #444444;
-	font-size: 3vw;
+	font-size: 16px;
 }
+
 #content form table tbody tr td div {
 	color: #444444;
 }
@@ -359,6 +362,24 @@ blockquote {
 	width: 646px;
 	margin-left: auto;
 	margin-right: auto;
+}
+}
+
+/***********************************************************/
+/* Version of layout divs for MOBILE phones. */
+@media screen and (max-width: 600px) {
+#content p {
+	font-size: 3vw;
+}
+
+#header h1 {
+	font-size: 5vw;
+}
+#header h2 {
+	font-size: 3vw;
+}
+#footer p {
+	font-size: 3vw;
 }
 }
 

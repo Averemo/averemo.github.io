@@ -39,7 +39,7 @@ function header() {
 <div id="container">
 <div id="header">
   <div id="leftheader">
-      <a href="${getBase()}/"> <img src="${getBase()}/images/flag_cropped.png" style="width:50vw"></a>
+      <a href="${getBase()}/"> <img src="${getBase()}/images/flag_cropped.png" style="width:30vw"></a>
   </div>
   <div id="rightheader">
     <h1>Averemo</h1>
