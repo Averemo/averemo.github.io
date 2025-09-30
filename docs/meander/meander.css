@@ -159,6 +159,7 @@ blockquote {
 #header h1 {
 	margin-top: 0;
 	padding-left: 5.0em;
+	padding-right: 8vw;
 	color: #33C;
 	font-size: 4vw;
 }
@@ -369,7 +370,7 @@ blockquote {
 /* Version of layout divs for MOBILE phones. */
 @media screen and (max-width: 600px) {
 #content p {
-	font-size: 3vw;
+	font-size: 3.5vw;
 }
 
 #header h1 {
