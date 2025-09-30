@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="meander_custom/custom.css?version=29" rel="stylesheet" type="text/css"/>
+    <link href="meander/meander.css?version=27" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src='meander/meander.js'> </script>
+     <title>Multiple Choice Quiz</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f4f4f9; }
+        #quiz-container { width: 500px; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        #question-text { margin-top: 0; }
+        #answer-buttons { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+        .answer-btn { width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9; cursor: pointer; text-align: left; }
+        .answer-btn:hover { background-color: #e0e0e0; }
+        #score-container { font-weight: bold; }
+        #result-container { text-align: center; }
+        #restart-button { padding: 10px 20px; font-size: 1rem; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+<script>header();</script>
+
+<div id="quiz-container">
+    <div id="question-view">
+        <h2 id="question-text"></h2>
+        <div id="answer-buttons">
+            </div>
+        <div id="score-container">
+            <p>Score: <span id="score-value">0</span></p>
+        </div>
+    </div>
+
+    <div id="result-view" style="display: none;">
+        <div id="result-container">
+            <h2>Quiz Complete!</h2>
+            <p>Your final score is <span id="final-score"></span> out of <span id="total-questions"></span>.</p>
+            <button id="restart-button">Restart Quiz</button>
+            <p>Here is how to interpret your results.</p>
+        </div>
+    </div>
+</div>
+
+<script src="quiz.js">
+</script>
+
+<script>
+const quizData = [
+    {
+        question: "What is the capital of France?",
+        answers: ["Berlin", "Madrid", "Paris", "Rome"],
+        correctAnswerIndex: 2
+    },
+    {
+        question: "Which planet is known as the Red Planet?",
+        answers: ["Earth", "Mars", "Jupiter", "Venus"],
+        correctAnswerIndex: 1
+    },
+    {
+        question: "What is the largest ocean on Earth?",
+        answers: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        correctAnswerIndex: 3
+    },
+    {
+        question: "What is the value of 'π' (pi) approximately?",
+        answers: ["2.14", "3.14", "4.14", "1.14"],
+        correctAnswerIndex: 1
+    }
+];
+
+const myQuiz = new Quiz(quizData);
+myQuiz.displayQuestion();
+</script>
+
+<script>footer();</script>
+
+</body>
+</html>
