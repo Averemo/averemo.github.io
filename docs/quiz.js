@@ -1,16 +1,3 @@
-
-
-// DOM Elements
-const questionView = document.getElementById('question-view');
-const resultView = document.getElementById('result-view');
-const questionTextElem = document.getElementById('question-text');
-const answerButtonsElem = document.getElementById('answer-buttons');
-const scoreValueElem = document.getElementById('score-value');
-const finalScoreElem = document.getElementById('final-score');
-const totalQuestionsElem = document.getElementById('total-questions');
-const restartButton = document.getElementById('restart-button');
-
-
 /*
 =========================================================
     Quiz Class Definition
@@ -23,8 +10,15 @@ class Quiz {
         this.score = 0;
         this.questionIndex = 0;
 
-        // Event Listener for the restart button
-        restartButton.addEventListener('click', () => this.restartQuiz());
+        // DOM Elements
+        this.questionView = null;
+        this.resultView = null;
+        this.questionTextElem = null;
+        this.answerButtonsElem = null;
+        this.scoreValueElem = null;
+        this.finalScoreElem = null;
+        this.totalQuestionsElem = null;
+        this.restartButton = null;
     }
 
     getCurrentQuestion() {
@@ -46,17 +40,17 @@ class Quiz {
 
     displayQuestion() {
         // Clear previous answer buttons
-        answerButtonsElem.innerHTML = '';
+        this.answerButtonsElem.innerHTML = '';
 
         const currentQuestion = this.getCurrentQuestion();
-        questionTextElem.textContent = currentQuestion.question;
+        this.questionTextElem.textContent = currentQuestion.question;
 
         currentQuestion.answers.forEach((answer, index) => {
             const button = document.createElement('button');
             button.textContent = answer;
             button.classList.add('answer-btn');
             button.addEventListener('click', () => this.handleAnswerClick(index));
-            answerButtonsElem.appendChild(button);
+            this.answerButtonsElem.appendChild(button);
         });
     }
 
@@ -72,22 +66,63 @@ class Quiz {
     }
 
     updateScore() {
-        scoreValueElem.textContent = this.getScore();
+        this.scoreValueElem.textContent = this.getScore();
     }
 
     showResults() {
-        questionView.style.display = 'none';
-        resultView.style.display = 'block';
-        finalScoreElem.textContent = this.getScore();
-        totalQuestionsElem.textContent = this.getTotalQuestions();
+        this.questionView.style.display = 'none';
+        this.resultView.style.display = 'block';
+        this.finalScoreElem.textContent = this.getScore();
+        this.totalQuestionsElem.textContent = this.getTotalQuestions();
+    }
+
+    startQuiz() {
+        this.writeDivs();
+        this.displayQuestion();
     }
 
     restartQuiz() {
         this.reset();
-        resultView.style.display = 'none';
-        questionView.style.display = 'block';
+        this.resultView.style.display = 'none';
+        this.questionView.style.display = 'block';
         this.updateScore();
         this.displayQuestion();
+    }
+
+    writeDivs() {
+        let topHTML = `
+<div id="quiz-container">
+    <div id="question-view">
+        <h2 id="question-text"></h2>
+        <div id="answer-buttons">
+            </div>
+        <div id="score-container">
+            <p>Score: <span id="score-value">0</span></p>
+        </div>
+    </div>
+
+    <div id="result-view" style="display: none;">
+        <div id="result-container">
+            <h2>Quiz Complete!</h2>
+            <p>Your final score is <span id="final-score"></span> out of <span id="total-questions"></span>.</p>
+            <button id="restart-button">Restart Quiz</button>
+            <p>Here is how to interpret your results.</p>
+        </div>
+    </div>
+</div>
+`;
+        document.write(topHTML);
+        // DOM Elements
+        this.questionView = document.getElementById('question-view');
+        this.resultView = document.getElementById('result-view');
+        this.questionTextElem = document.getElementById('question-text');
+        this.answerButtonsElem = document.getElementById('answer-buttons');
+        this.scoreValueElem = document.getElementById('score-value');
+        this.finalScoreElem = document.getElementById('final-score');
+        this.totalQuestionsElem = document.getElementById('total-questions');
+        this.restartButton = document.getElementById('restart-button');
+        // Event Listener for the restart button
+        this.restartButton.addEventListener('click', () => this.restartQuiz());
     }
 
 }

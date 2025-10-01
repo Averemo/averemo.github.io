@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../meander_custom/custom.css?version=29" rel="stylesheet" type="text/css"/>
+    <link href="../meander/meander.css?version=27" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src='../meander/meander.js'> </script>
+    <script type="text/javascript" src='../quiz.js'> </script>
+    <title>DEI Quiz</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f4f4f9; }
+        #quiz-container { width: 80%; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        #question-text { margin-top: 0; }
+        #answer-buttons { display: flex; flex-direction: row; gap: 10px; margin: 20px 0; }
+        .answer-btn { width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9; cursor: pointer; text-align: left; }
+        .answer-btn:hover { background-color: #e0e0e0; }
+        #score-container { font-weight: bold; }
+        #result-container { text-align: center; }
+        #restart-button { padding: 10px 20px; font-size: 1rem; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+<script>header();</script>
+
+<h1>Is DEI Good or Bad?</h1>
+
+<p>First, what is DEI? It stands for "Diversity, Equity and Inclusion".
+<p>Is it good or bad? The best judge of that is <strong>you</strong>. This quiz  will explore various
+fictional scenarios involving DEI so that you can decide for yourself.</p>
+<p>There are no right or wrong answers. This is just for you to discover your opinions.
+(Your answers are not saved anywhere.)</p>
+
+<!--
+blind recruitment hiring
+pay equity analysis
+mentorship for underrepresented groups
+-->
+<script>
+const quizData = [
+    {
+        question: `The white male head of a large company had a group of advisors that
+        were all white males. One day he had a bad idea but all the advisors thought it
+        was a good idea. He followed it and the company failed. In his next company he
+        hired a group of advisors that included women, minorities, foreigners, and
+        others that were not like him.
+        Do you think hiring a diverse group of advisers is ...`,
+        answers: [`GOOD because someone in the group is more likely to have a different
+        perspective and could spot bad ideas or come up with a better one.`,
+        "BAD because they are more likely to disagree with one another."],
+        correctAnswerIndex: 0
+    },
+    {
+        question: `An ivy league college used race as a factor in admissions and considered
+        minority status to be a plus.
+        In 2023 the Supreme Court found that this was unlawful because of the Equal Protection Clause
+        of the Constitution. But colleges could consider how race affected the student as an individual.
+        Do you think the use of race in admissions is ...
+        `,
+        answers: [`GOOD because it increases diversity and helps train future minority leaders.`,
+        `BAD because it discriminates against white students and may lead some people to assume that
+        a minority student was unqualified and was only accepted because of a quota.`],
+        correctAnswerIndex: 0
+    },
+    {
+        question: `John Smith was a skilled accountant.
+        One weekend he was injured in a car accident and became paralyzed.
+        Luckily for John, the company John works
+        for was required, under the Americans with Disability Act (ADA), to provide ramps for
+        wheelchairs. So John was able to return to work. Do you think this requirement was ...`,
+        answers: ["GOOD because John was fully capable of being an accountant and just needed the ramp.",
+        "BAD because the ramps cost the company money."],
+        correctAnswerIndex: 0
+    },
+    {
+        question: `Company XYZ used to focus their recruitment efforts on neighborhoods that
+        were mostly white. As a result, their new hires were mostly white. So they added
+        neighborhoods with more minorities to their list. As a result, more minorities applied and
+        were hired. Do you think this was ...
+        `,
+        answers: ["GOOD because it resulted in a more diverse workforce and expanded their talent pool.",
+        "BAD because the individuals from minority neighborhoods may be less qualified."],
+        correctAnswerIndex: 0
+    },
+    {
+        question: `Medical research used to focus on white males. This resulted in
+        medical problems specific to women being under studied. Also diseases that tend
+        to be found in minority or poor populations were sometimes ignored.
+        Recently, research has increased its focus on women and minorities
+        in an effort to balance things out. But the NIH under Trump is cancelling funding
+        for research grants that mention women, minorities, or economics.
+        Do you think that funding some medical research specifically for women and minorities is ...`,
+        answers: ["GOOD because diseases like breast cancer or sickle cell anemia are not common in white males.",
+        "BAD because funding research on women or minorities discriminates agains white men."],
+        correctAnswerIndex: 0
+    },
+];
+
+const myQuiz = new Quiz(quizData);
+myQuiz.startQuiz();
+</script>
+
+<h2>References</h2>
+<p><a href="https://doi.org/10.1111/cts.13513" target="_blank">
+"Sex, racial, and ethnic diversity in clinical trials"</a> CTS Clinical and Translational Science, Vol 16, #6, June 2023</p>
+
+<script>footer();</script>
+
+</body>
+</html>
