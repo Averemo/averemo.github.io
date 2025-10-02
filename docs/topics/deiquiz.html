@@ -12,7 +12,7 @@
         body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f4f4f9; }
         #quiz-container { width: 80%; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         #question-text { margin-top: 0; }
-        #answer-buttons { display: flex; flex-direction: row; gap: 10px; margin: 20px 0; }
+        #answer-buttons { display: flex; flex-direction: row; gap: 10px; width: 200px; margin: 20px 0; }
         .answer-btn { width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9; cursor: pointer; text-align: left; }
         .answer-btn:hover { background-color: #e0e0e0; }
         #score-container { font-weight: bold; }
@@ -33,70 +33,88 @@ fictional scenarios involving DEI so that you can decide for yourself.</p>
 
 <!--
 blind recruitment hiring
-pay equity analysis
-mentorship for underrepresented groups
 -->
 <script>
 const quizData = [
-    {
-        question: `The white male head of a large company had a group of advisors that
-        were all white males. One day he had a bad idea but all the advisors thought it
-        was a good idea. He followed it and the company failed. In his next company he
-        hired a group of advisors that included women, minorities, foreigners, and
-        others that were not like him.
-        Do you think hiring a diverse group of advisers is ...`,
-        answers: [`GOOD because someone in the group is more likely to have a different
-        perspective and could spot bad ideas or come up with a better one.`,
-        "BAD because they are more likely to disagree with one another."],
-        correctAnswerIndex: 0
-    },
     {
         question: `An ivy league college used race as a factor in admissions and considered
         minority status to be a plus.
         In 2023 the Supreme Court found that this was unlawful because of the Equal Protection Clause
         of the Constitution. But colleges could consider how race affected the student as an individual.
-        Do you think the use of race in admissions is ...
-        `,
-        answers: [`GOOD because it increases diversity and helps train future minority leaders.`,
-        `BAD because it discriminates against white students and may lead some people to assume that
-        a minority student was unqualified and was only accepted because of a quota.`],
-        correctAnswerIndex: 0
+        <ul>
+        <li>Some think that using race as a factor in admissions is GOOD because it increases diversity
+        and helps train future minority leaders.</li>
+        <li>Some think it is BAD because it discriminates against white students and may lead
+        some people to assume that a minority student was unqualified and was only accepted
+        because of a quota.</li>
+        </ul>
+        Do you think the use of race in admissions is ...`
+    },
+    {
+        question: `The white male head of a large company had a group of advisors that
+        were all white men. One day he had a bad idea but all the advisors thought it
+        was a good idea. He followed it and the company failed. In his next company he
+        hired a group of advisors that included women, minorities, foreigners, and
+        others that were not like him.<br/>
+        <ul>
+        <li>Some think hiring diverse advisers is GOOD because someone in the group is more likely to have a different
+        perspective and could spot bad ideas or come up with a better one.</li>
+        <li>Some think this is BAD because they are more likely to disagree with one another.</li>
+        </ul>
+        Do you think hiring a diverse group of advisers is ...`
     },
     {
         question: `John Smith was a skilled accountant.
         One weekend he was injured in a car accident and became paralyzed.
-        Luckily for John, the company John works
+        Luckily for John, the company he works
         for was required, under the Americans with Disability Act (ADA), to provide ramps for
-        wheelchairs. So John was able to return to work. Do you think this requirement was ...`,
-        answers: ["GOOD because John was fully capable of being an accountant and just needed the ramp.",
-        "BAD because the ramps cost the company money."],
-        correctAnswerIndex: 0
+        wheelchairs. So John was able to return to work.<br/>
+        <ul>
+        <li>Some think this requirement was GOOD because John was fully capable of being an
+        accountant and just needed the ramp.</li>
+        <li> Some think it is BAD because the ramps cost the company money and the government
+        should not be telling companies what to do.</li>
+        </ul>
+        Do you think this requirement was ...`
     },
     {
         question: `Company XYZ used to focus their recruitment efforts on neighborhoods that
-        were mostly white. As a result, their new hires were mostly white. So they added
-        neighborhoods with more minorities to their list. As a result, more minorities applied and
-        were hired. Do you think this was ...
-        `,
-        answers: ["GOOD because it resulted in a more diverse workforce and expanded their talent pool.",
-        "BAD because the individuals from minority neighborhoods may be less qualified."],
-        correctAnswerIndex: 0
+        happened to be mostly white. As a result, their new hires were mostly white. So they started recruiting
+        in more neighborhoods with more minorities. As a result, more minorities applied and
+        more qualified minority candidates were hired.
+        <ul>
+        <li>Some think this was GOOD because it resulted in a more diverse workforce and expanded their talent pool.</li>
+        <li>Some think this was BAD because it cost the company more money for recruiting.</li>
+        </ul>
+        Do you think this was ...`
     },
     {
-        question: `Medical research used to focus on white males. This resulted in
-        medical problems specific to women being under studied. Also diseases that tend
+        question: `Medical research used to focus primarily on white males. This resulted in
+        medical problems specific to women being less well understood. Also diseases that tend
         to be found in minority or poor populations were sometimes ignored.
         Recently, research has increased its focus on women and minorities
-        in an effort to balance things out. But the NIH under Trump is cancelling funding
+        in an effort to balance things out. But the current NIH is cancelling funding
         for research grants that mention women, minorities, or economics.
-        Do you think that funding some medical research specifically for women and minorities is ...`,
-        answers: ["GOOD because diseases like breast cancer or sickle cell anemia are not common in white males.",
-        "BAD because funding research on women or minorities discriminates agains white men."],
-        correctAnswerIndex: 0
+        <ul>
+        <li>Some think including women and minority in study groups GOOD because diseases
+        like breast cancer or sickle cell anemia are not common in white men.</li>
+        <li>Some think this is BAD because funding research on women or minorities discriminates agains white men.</li>
+        </ul>
+        Do you think that funding some medical research specifically for women and minorities is ...`
+    },
+    {
+        question: `A large company received complaints that their women employees were, on average, paid less
+        than men for the same job and seniority. They created a Pay Equity department to analyze
+        salaries across the company and raised the women's pay where needed to match the men's pay.
+        <ul>
+        <li>Some think this was a GOOD idea because people should be paid the same amount for the same work.</li>
+        <li>Some think this is BAD because women are more likely to have a husband that is paid well.</li>
+        </ul>
+        Do you think that equalizing pay for women is ...`
     },
 ];
 
-const myQuiz = new Quiz(quizData);
+const myQuiz = new GoodBadQuiz(quizData);
 myQuiz.startQuiz();
 </script>
 

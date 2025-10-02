@@ -16,8 +16,8 @@ class Quiz {
         this.questionTextElem = null;
         this.answerButtonsElem = null;
         this.scoreValueElem = null;
+        this.progressValueElem = null;
         this.finalScoreElem = null;
-        this.totalQuestionsElem = null;
         this.restartButton = null;
     }
 
@@ -34,7 +34,10 @@ class Quiz {
     }
 
     isEnded() { return this.questionIndex >= this.questions.length; }
-    reset() { this.score = 0; this.questionIndex = 0; }
+    reset() {
+        this.score = 0;
+        this.questionIndex = 0;
+    }
     getScore() { return this.score; }
     getTotalQuestions() { return this.questions.length; }
 
@@ -43,7 +46,7 @@ class Quiz {
         this.answerButtonsElem.innerHTML = '';
 
         const currentQuestion = this.getCurrentQuestion();
-        this.questionTextElem.textContent = currentQuestion.question;
+        this.questionTextElem.innerHTML = currentQuestion.question;
 
         currentQuestion.answers.forEach((answer, index) => {
             const button = document.createElement('button');
@@ -52,6 +55,8 @@ class Quiz {
             button.addEventListener('click', () => this.handleAnswerClick(index));
             this.answerButtonsElem.appendChild(button);
         });
+
+        this.updateProgress();
     }
 
     handleAnswerClick(answerIndex) {
@@ -66,14 +71,27 @@ class Quiz {
     }
 
     updateScore() {
-        this.scoreValueElem.textContent = this.getScore();
+        this.scoreValueElem.textContent = this.getScoreText()
+    }
+    updateProgress() {
+        this.progressValueElem.textContent =
+            "Question #" + (this.questionIndex + 1)
+             + " out of " + this.getTotalQuestions();
     }
 
     showResults() {
         this.questionView.style.display = 'none';
         this.resultView.style.display = 'block';
-        this.finalScoreElem.textContent = this.getScore();
-        this.totalQuestionsElem.textContent = this.getTotalQuestions();
+        this.finalScoreElem.innerHTML = this.getFinalScoreText();
+    }
+
+    getScoreText() {
+        return this.getScore();
+    }
+
+    getFinalScoreText() {
+        return "Your final score is " + this.getScore()
+            + " out of " + this.getTotalQuestions();
     }
 
     startQuiz() {
@@ -97,16 +115,18 @@ class Quiz {
         <div id="answer-buttons">
             </div>
         <div id="score-container">
-            <p>Score: <span id="score-value">0</span></p>
+            <p>Score is <span id="score-value">___</span></p>
+        </div>
+        <div id="progress-container">
+            <p><span id="progress-value">___</span></p>
         </div>
     </div>
 
     <div id="result-view" style="display: none;">
         <div id="result-container">
             <h2>Quiz Complete!</h2>
-            <p>Your final score is <span id="final-score"></span> out of <span id="total-questions"></span>.</p>
+            <p><span id="final-score"></span></p>
             <button id="restart-button">Restart Quiz</button>
-            <p>Here is how to interpret your results.</p>
         </div>
     </div>
 </div>
@@ -118,11 +138,58 @@ class Quiz {
         this.questionTextElem = document.getElementById('question-text');
         this.answerButtonsElem = document.getElementById('answer-buttons');
         this.scoreValueElem = document.getElementById('score-value');
+        this.progressValueElem = document.getElementById('progress-value');
         this.finalScoreElem = document.getElementById('final-score');
-        this.totalQuestionsElem = document.getElementById('total-questions');
         this.restartButton = document.getElementById('restart-button');
         // Event Listener for the restart button
         this.restartButton.addEventListener('click', () => this.restartQuiz());
     }
+}
+/*
+=========================================================
+    GoodBadQuiz Class Definition
+=========================================================
+*/
+class GoodBadQuiz extends Quiz {
 
+    constructor(questions) {
+        super(questions)
+
+        questions.forEach((question) => {
+            question.answers = ["Good", "Neutral", "Bad"];
+        });
+
+        this.scores = [0, 0, 0];
+    }
+
+    reset() {
+        super.reset();
+        this.scores = [0, 0, 0];
+    }
+
+    handleAnswerClick(answerIndex) {
+        this.scores[answerIndex]++;
+        super.handleAnswerClick(answerIndex);
+    }
+
+    getScoreText() {
+        return "Good: " + this.scores[0]
+            + ", Neutral: " + this.scores[1]
+            + ", Bad: " + this.scores[2]
+    }
+
+    getFinalScoreText() {
+        let good = this.scores[0];
+        let neutral = this.scores[1];
+        let bad = this.scores[2];
+        let interpretation = "You think this is ";
+        if (good > neutral && good > bad) {
+            interpretation += "mostly GOOD.";
+        } else if (bad > neutral && bad > good) {
+            interpretation += "mostly BAD.";
+        } else {
+            interpretation += "a mix of GOOD and BAD.";
+        }
+        return "Your final score is " + this.getScoreText() + "<br/>" + interpretation;
+    }
 }
