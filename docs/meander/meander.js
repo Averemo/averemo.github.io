@@ -1,5 +1,6 @@
 /*
  * Simple navigation system for a static website.
+ * by Phil Burk
  */
 function getBase() {
     return window.location.hostname === 'localhost'
