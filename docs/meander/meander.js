@@ -23,6 +23,7 @@ function buildTopMenus() {
     return beginMenu()
         + buildLink('/index.html', 'Home')
         + buildLink('/topics/', 'Topics')
+        + buildLink('/articles/', 'Articles')
         + buildLink('/about.html', 'About&nbsp;Us')
         + buildLink('/', '')
         + endMenu();
