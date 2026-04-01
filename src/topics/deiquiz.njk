@@ -1,0 +1,111 @@
+---
+layout: base.njk
+title: "DEI Quiz"
+---
+
+<h1>Is DEI Good or Bad?</h1>
+<p>You can discuss this topic on <a href="https://discord.com/channels/1429240627178110988/1429263001298407527" target="_blank">Discord</a>.</p>
+<p>First, what is DEI? It stands for "Diversity, Equity and Inclusion".
+</p><p>Is it good or bad? The best judge of that is <strong>you</strong>. This quiz  will explore various
+fictional scenarios involving DEI so that you can decide for yourself.</p>
+<p>There are no right or wrong answers. This is just for you to discover your opinions.
+(Your answers are not saved anywhere.)</p>
+
+<script>
+const quizData = [
+    {
+        question: `An ivy league college used race as a factor in admissions and considered
+        minority status to be a plus.
+        In 2023 the Supreme Court found that this was unlawful because it violated the Equal Protection Clause
+        of the Constitution. But they said colleges could consider how race affected the student as an individual.
+        <ul>
+        <li>Some think that using race as a factor in admissions is GOOD because it increases diversity
+        and helps train future minority leaders.</li>
+        <li>Some think it is BAD because it discriminates against white students and may lead
+        some people to assume that a minority student was unqualified and was only accepted
+        because of a quota.</li>
+        </ul>
+        Do you think the use of race in admissions is ...`
+    },
+    {
+        question: `The white male head of a large company had a group of advisors that
+        were all white men. One day he had a bad idea but all the advisors thought it
+        was a good idea. He followed it and the company failed. In his next company he
+        hired a group of advisors that included women, minorities, foreigners, and
+        others that were not like him.<br/>
+        <ul>
+        <li>Some think hiring diverse advisers is GOOD because someone in the group is more likely to have a different
+        perspective and could spot bad ideas or come up with a better one.</li>
+        <li>Some think this is BAD because they are more likely to disagree with one another.</li>
+        </ul>
+        Do you think hiring a diverse group of advisers is ...`
+    },
+    {
+        question: `John Smith was a skilled accountant.
+        One weekend he was injured in a car accident and became paralyzed.
+        Luckily for John, the company he works
+        for was required, under the Americans with Disability Act (ADA), to provide ramps for
+        wheelchairs. So John was able to return to work.<br/>
+        <ul>
+        <li>Some think this requirement was GOOD because John was fully capable of being an
+        accountant and just needed the ramp.</li>
+        <li> Some think it is BAD because the ramps cost the company money and the government
+        should not be telling companies what to do.</li>
+        </ul>
+        Do you think this requirement was ...`
+    },
+    {
+        question: `Company XYZ used to focus their recruitment efforts on neighborhoods that
+        happened to be mostly white. As a result, their new hires were mostly white. So they started recruiting
+        in more neighborhoods with more minorities. As a result, more minorities applied and
+        more qualified minority candidates were hired.
+        <ul>
+        <li>Some think this was GOOD because it resulted in a more diverse workforce and expanded their talent pool.</li>
+        <li>Some think this was BAD because it cost the company more money for recruiting.</li>
+        </ul>
+        Do you think this was ...`
+    },
+    {
+        question: `Medical research used to focus primarily on white males. This resulted in
+        medical problems specific to women being less well understood. Also diseases that tend
+        to be found in minority or poor populations were sometimes ignored.
+        Recently, research has increased its focus on women and minorities
+        in an effort to balance things out. But the current NIH is cancelling funding
+        for research grants that mention women, minorities, or economics.
+        <ul>
+        <li>Some think including women and minority in study groups GOOD because diseases
+        like breast cancer or sickle cell anemia are not common in white men.</li>
+        <li>Some think this is BAD because funding research on women or minorities discriminates agains white men.</li>
+        </ul>
+        Do you think that funding some medical research specifically for women and minorities is ...`
+    },
+    {
+        question: `A large company received complaints that their women employees were, on average, paid less
+        than men for the same job and seniority. They created a DEI Department to analyze
+        salaries across the company and raised the women's pay where needed to match the men's pay.
+        <ul>
+        <li>Some think this was GOOD because they think people should be paid the same amount for the same work.</li>
+        <li>Some think this was BAD because they think women are more likely to have a husband that is paid well.</li>
+        </ul>
+        Do you think that equalizing pay for women is ...`
+    },
+    {
+        question: `When company XYZ interviews people for a job the interviewer writes  a
+        report without using any "he" or "she" pronouns. The hiring committee does not see
+        the candidates name and only reads the reports and recommendations from the interviews.
+        This way the hiring decision is not based on race or sex.
+        <ul>
+        <li>Some think this is GOOD because it reduces the likelihood  of discrimination.</li>
+        <li>Some think this is BAD because the people doing the hiring never meet the candidate face to face.</li>
+        </ul>
+        Do you think that removing clues about race and gender from the hiring process is ...`
+    },
+];
+
+const myQuiz = new GoodBadQuiz(quizData);
+myQuiz.startQuiz();
+</script>
+
+<h2>References</h2>
+<p><a href="https://doi.org/10.1111/cts.13513" target="_blank">
+"Sex, racial, and ethnic diversity in clinical trials"</a> CTS Clinical and Translational Science, Vol 16, #6, June 2023</p>

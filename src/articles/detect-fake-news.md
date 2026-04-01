@@ -1,0 +1,95 @@
+---
+layout: base.njk
+title: "How to Detect Fake News"
+---
+
+#How to Detect Fake News
+
+Fake News can be fun and interesting. Some folks enjoy a dose of outrage.
+But it is not very useful if you are seeking the truth.
+So how can you tell whether something is "fake news", ie. misinformation, or real information?
+
+Here are some techniques that might help. If you have some suggestions
+please share them on [Discord](https://discord.com/channels/1429240627178110988/1445942911781961861).
+
+## Use Fact Checkers
+
+A good fact checker can verify or refute something you found on the Internet.
+But it is important to use a reliable fact checker.
+
+The [Snopes.com](https://www.snopes.com/) website has a good reputation.
+They work hard to check all the details and do not seem to have a strong bias.
+
+The [FactCheck.org](https://www.factcheck.org/) website is focussed on US politics.
+
+## Do they Admit Mistakes?
+
+When a newspaper makes a mistake, they sometime print retractions or corrections.
+Look for these because it is a good sign that a newspaper cares about the truth.
+
+## Was the Testimony Under Oath?
+
+It is sometimes legal to lie if you are not under oath.
+So if someone refuses to testify under oath, or if their story changes when they are under oath,
+then they may be lying.
+
+## Balancing Bias
+
+Consider the source.
+Fox News tends to consistently lean way to the right and MSNOW tends to consistently lean way to the left.
+You may be able to find a more objective source.
+The NY Times and NPR tend to be more in the middle but probably lean slightly left.
+So you may need to read reports with conflicting bias and then balance those
+reports to find the central truth.
+
+It can also help to get a different perspective.
+If you want to read about, for example, the War in Gaza then you may
+learn something new by reading [Al Jazeera](https://www.aljazeera.com/).
+They are based in Qatar and have an excellent international news team.
+They also have a strict [Code of Ethics](https://www.aljazeera.com/code-of-ethics/).
+
+## Lying for Entertainment
+
+Sometimes the truth is not very interesting. A juicy lie might sell more newspapers. So ask yourself
+whether the report is designed to entertain or to inform.
+
+## Shades of Gray
+
+A report is probably not 100% fake or 100% real.
+You may be able to trust part of a story but not the whole story.
+
+## How Many People Think It Is True?
+
+The number of people who believe something is not a reliable sign of the truth.
+They may have all just read some really interesting article from a popular but biased new source.
+
+## Can Science Help Us?
+
+Science is **not** a set of beliefs. It is not just another religion.
+Instead, science is a technique for figuring out what is probably true.
+I say "probably" because science is continually advancing.
+Things that scientists thought were true in the 1800's were often corrected in the 1900's.
+By constantly questioning their conclusions and doing experiment to verify their theorems,
+science can get us very close to the truth.
+
+Science is the foundation for technology.
+And technology brought us computers and airplanes, which seem to work very well.
+So scientists must be doing something right.
+
+## How Close?
+
+News reports are generally either "primary", "secondary" or "tertiary":
+
+1. A **primary** report is from an eye witness. For example, "I was there and I saw it.".
+1. A **secondary** report is from people who talked to eye witnesses. For example, "I talked to several witness and most of them said it happened this way."
+1. A **tertiary** report is from someone who read a bunch of primary or secondary reports and created a summary. For example, "I read a bunch or newspapers and articles and here is what I think happened."
+
+There are advantages and disadvantages to each of these types of report.
+With **primary** reports, you get unfiltered information and you can judge how reliable that person is.
+For example, an airplane pilot would be a more reliable witness to a UFO sighting than most people.
+But an eye witness may not have been in the right place to see what really happened.
+They might say "I saw no damage" but a witness a block away might say "I saw a building collapse".
+A **tertiary** report is very indirect. But the person writing it may be an export who has studied
+the topic for decades.
+
+Considering whether a report is primary, secondary or tertiary can help you decide whether it can be trusted.

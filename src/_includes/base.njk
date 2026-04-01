@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/meander_custom/custom.css?version=29" rel="stylesheet" type="text/css"/>
+    <link href="/meander/meander.css?version=27" rel="stylesheet" type="text/css"/>
+    {% if extraJs %}
+    <script type="text/javascript" src='{{ extraJs }}'></script>
+    {% endif %}
+    {% if extraCss %}
+    <link href="{{ extraCss }}" rel="stylesheet" type="text/css"/>
+    {% endif %}
+    <title>{{ title | default("Averemo") }}</title>
+</head>
+<body>
+
+<div id="container">
+<div id="header">
+  <div id="leftheader">
+      <a href="/"> <img src="/images/flag_cropped.png" style="width:30vw" alt="Averemo Flag"></a>
+  </div>
+  <div id="rightheader">
+    <h1>Averemo</h1>
+    <h2>- shared truth -</h2>
+  </div>
+  <br class="clearfloat"/>
+</div>
+
+<!-- Navigation Bar ******************************** -->
+<div id="topnav">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/topics/">Topics</a></li>
+    <li><a href="/articles/">Articles</a></li>
+    <li><a href="/about/">About Us</a></li>
+  </ul>
+</div>
+
+<div id="content">
+<!-- Begin Content DIV ******************************** -->
+
+{{ content | safe }}
+
+<!-- end content div ******************************** -->
+</div>
+
+<div id="footer">
+  <p class="copyright">&copy; 2025 Averemo - All Rights Reserved</p>
+</div>
+<!-- end container div ******************************** -->
+</div>
+
+</body>
+</html>
