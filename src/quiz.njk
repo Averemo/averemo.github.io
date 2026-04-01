@@ -1,7 +1,18 @@
 ---
 layout: base.njk
 title: "Multiple Choice Quiz"
+extraJs: "/quiz.js"
 ---
+<style>
+    #quiz-container { width: 60%; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin: 2rem auto; }
+    #question-text { margin-top: 0; }
+    #answer-buttons { display: flex; flex-direction: column; gap: 10px; margin: 20px 0; }
+    .answer-btn { width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9; cursor: pointer; text-align: left; }
+    .answer-btn:hover { background-color: #e0e0e0; }
+    #score-container { font-weight: bold; }
+    #result-container { text-align: center; }
+    #restart-button { padding: 10px 20px; font-size: 1rem; cursor: pointer; background-color: #007bff; color: white; border: none; border-radius: 5px; }
+</style>
 
 <script>
 const quizData = [
