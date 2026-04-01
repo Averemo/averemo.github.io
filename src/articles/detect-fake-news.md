@@ -3,7 +3,7 @@ layout: base.njk
 title: "How to Detect Fake News"
 ---
 
-#How to Detect Fake News
+# How to Detect Fake News
 
 Fake News can be fun and interesting. Some folks enjoy a dose of outrage.
 But it is not very useful if you are seeking the truth.
