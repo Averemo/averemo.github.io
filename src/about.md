@@ -9,7 +9,7 @@ We are a small group of people committed to being honest about topics of interes
 
 **What does "Averemo" mean?** It is an invented word that means "tell me the truth".
 
-**Who is the audience for this website?** We are trying to reach conservative voters that may currently support Donald Trump. This website should be a welcoming place for conservative voters to explore various topics.
+**Who is the audience for this website?** We are trying to reach conservative voters that may currently support Donald Trump. This website should be a welcoming place for conservative voters to safely explore various topics.
 
 **What is the editorial policy for this site?**
 
