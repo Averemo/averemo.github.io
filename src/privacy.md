@@ -9,6 +9,8 @@ We are committed to protecting your privacy. We do NOT collect any personal info
 
 You can check for the use of Cookies on this site by using [CookieServe](https://www.cookieserve.com/scan-summary/?url=averemo.org).
 
+Note that our web traffic flows through [CloudFlare](https://cloudflare.com). They also protect your privacy.
+
 ## Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
