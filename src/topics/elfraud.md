@@ -29,7 +29,8 @@ They also found an additional 361 votes for Biden. [\[NPR\]](https://www.npr.org
 **The Trump campaign filed 62 lawsuits relating to 2020 election fraud.**
 Nearly all the suits were dismissed for lack of evidence or lack of standing.
 Many of these dismissals came from judges appointed by Donald Trump and other Republican presidents.
-They won one case related to voter identification but it was overturned by the Pennsylvania Supreme Court. [\[Reuters\]](https://www.reuters.com/article/world/fact-check-courts-have-dismissed-multiple-lawsuits-of-alleged-electoral-fraud-p-idUSKBN2AF1FQ/) [\[Wikipedia\]](https://en.wikipedia.org/wiki/Post-election_lawsuits_related_to_the_2020_U.S._presidential_election) [\[CLC\]](https://campaignlegal.org/results-lawsuits-regarding-2020-elections)
+They won one case related to voter identification but it was overturned by the Pennsylvania Supreme Court. [\[Reuters\]](https://www.reuters.com/article/world/fact-check-courts-have-dismissed-multiple-lawsuits-of-alleged-electoral-fraud-p-idUSKBN2AF1FQ/) [\[Wikipedia\]](https://en.wikipedia.org/wiki/Post-election_lawsuits_related_to_the_2020_U.S._presidential_election) [\[CLC\]](https://campaignlegal.org/results-lawsuits-regarding-2020-elections),
+[\[ElectionIntegrity\]](https://www.election-integrity.org/post/prominent-conservatives-reviewed-voter-fraud-lawsuits-concluded-no-fraud-in-2020-election)
 
 **Donald Trump has claimed that it was statistically impossible for Biden to have won in 2020.** These claims were evaluated by Stanford Professor Justin Grimmer from the conservative Hoover Institution.
 He found that the claims failed "to provide evidence of fraud or illegal voting". [\[interview\]](https://humsci.stanford.edu/feature/debunking-evidence-election-fraud-cases) [\[research\]](https://www.dropbox.com/scl/fi/qfvavvua3g6dksnzl9ils/TrumpClaims.pdf?rlkey=rnig91049e5js1hprelig4ij9&e=2&dl=0)
@@ -56,3 +57,9 @@ If there was strong evidence of fraud then it would have been introduced under o
 The American legal process determined that there was no fraud and these 2020 electoral results can be accepted.
 
 If you know of any factual evidence that contradicts this conclusion, please share it on [Discord](https://discord.com/channels/1429240627178110988/1429262910101786685).
+
+### References
+* ["LOST, NOT STOLEN:
+The Conservative Case that Trump Lost and Biden
+Won the 2020 Presidential Election""](https://lostnotstolen.org//wp-content/uploads/2022/07/Lost-Not-Stolen-The-Conservative-Case-that-Trump-Lost-and-Biden-Won-the-2020-Presidential-Election-July-2022.pdf), July 2022
+
