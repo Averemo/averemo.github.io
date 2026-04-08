@@ -212,12 +212,12 @@ blockquote {
 	font-size: 16px;
 }
 #topnav a:link {
-	color: #128;
-	text-decoration: none
+	color: #0058C0;
+	text-decoration: underline;
 }
 #topnav a:visited {
-	color: #005;
-	text-decoration: none
+	color: #6699CC;
+	text-decoration: underline;
 }
 #topnav a:hover {
 	color: #FCF;
