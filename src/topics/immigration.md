@@ -17,6 +17,7 @@ Trump campaigned on deporting violent criminal aliens.
 * Trump has repeated a claim about Haitian immigrants eating pets without evidence. [\[NBC\]](https://www.nbcnews.com/politics/2024-election/trump-pushes-baseless-claim-immigrants-eating-pets-rcna170537)
 * The Trump administration has also restricted asylum access for many people fleeing danger in Latin America. [\[AIC\]](https://www.americanimmigrationcouncil.org/press-release/supreme-court-allows-trump-to-block-asylum-seekers/) [\[BCJ\]](https://www.brennancenter.org/our-work/analysis-opinion/how-trump-administration-dismantling-refugee-and-asylum-programs)
 * Trump has welcomed white South African refugees who say they were facing persecution, even though the South African government disputes that claim. [\[AP/YouTube\]](https://www.youtube.com/watch?v=ob6rqfIKtpU) [\[CBS\]](https://www.cbsnews.com/news/trump-administration-thousands-more-afrikaners-refugees/) [\[PBS\]](https://www.pbs.org/newshour/world/a-hillside-of-white-crosses-fuels-a-misleading-story-about-south-africas-farm-killings)
+* An ICE arrest in a rural Montana town prompts a conservative community to take action. [\[YouTube\]](https://youtu.be/n3PMfV9z5Qo?is=yNhKelIw3ihYm8fe)
 
 ## What Is the Impact of Immigration and Deportation on the Economy?
 
@@ -56,3 +57,5 @@ ICE agents have appeared in many American cities wearing masks and driving unmar
 
 * [\[White House Immigration Page\]](https://www.whitehouse.gov/priorities/border-immigration/)
 * [\[Cato Institute\]](https://www.cato.org/immigration)
+
+
