@@ -10,7 +10,7 @@ But it is not very useful if you are seeking the truth.
 So how can you tell whether something is "fake news", ie. misinformation, or real information?
 
 Here are some techniques that might help. If you have some suggestions
-please share them on [Discord](https://discord.com/channels/1429240627178110988/1445942911781961861).
+please share them on [Discourse](https://averemo.discourse.group/).
 
 ## Use Fact Checkers
 

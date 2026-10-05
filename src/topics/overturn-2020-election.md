@@ -5,8 +5,6 @@ title: "Did Trump Try to Overturn the 2020 Election?"
 
 # Did Trump Try to Overturn the 2020 Election?
 
-You can discuss this topic on [Discord](https://discord.com/channels/1429240627178110988/1491240069619777577)
-
 Typically, after a Presidential election, the losing candidates will concede.
 But instead, Trump claimed the [2020 election was a fraud](/topics/elfraud/).
 He then took several actions that could have changed the election results and/or prevented Biden from becoming President.

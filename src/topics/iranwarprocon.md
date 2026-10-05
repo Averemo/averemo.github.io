@@ -5,8 +5,6 @@ title: "Iran War Pros and Cons"
 
 # Is the Iran War Good for America?
 
-You can discuss this topic on [Discord](https://discord.com/channels/1429240627178110988/1490838283381375180).
-
 On February 28, 2026, the United States and Israel launched a preemptive strike against Iran [\[Wikipedia\]](https://en.wikipedia.org/wiki/2026_Iran_war).
 We are still at war with no clear solution.
 So it is hard to know whether it will end up being good for America or not.

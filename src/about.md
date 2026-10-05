@@ -15,4 +15,4 @@ We are a small group of people committed to being honest about topics of interes
 
 *   Content should be true and verifiable with multiple references.
 *   Everyone should be respected, regardless of their views.
-*   If we make a mistake then we should correct the website. Please report errors on [Discord](https://discord.com/channels/1429240627178110988/1429242831310160054).
+*   If we make a mistake then we should correct the website. Please report errors on [Discourse](https://averemo.discourse.group/t/report-errors-on-averemo-website/7).

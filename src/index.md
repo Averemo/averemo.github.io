@@ -7,6 +7,8 @@ title: "Averemo"
 
 We are seeking a truth that liberals and conservatives can share.
 
+If you would like to discuss this website, or to report factual errors, please visit our community on [Discourse](https://averemo.discourse.group/).
+
 Recently Added:
 
 * 2026-10-04 [Is Trump Handling Immigration Well?](topics/immigration/)

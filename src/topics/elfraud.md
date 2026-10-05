@@ -5,8 +5,6 @@ title: "Election Fraud 2020"
 
 # Was the 2020 Election stolen from Donald Trump?
 
-You can discuss this topic on [Discord](https://discord.com/channels/1429240627178110988/1429262910101786685).
-
 Let's consider the evidence.
 
 **The Heritage Foundation has recorded over 1500 individual cases of Election Fraud between 1982 and 2024.** Many of these led to convictions.
@@ -56,7 +54,7 @@ It seems the American electoral process worked as designed. Trump filed lawsuits
 If there was strong evidence of fraud then it would have been introduced under oath in these many court cases.
 The American legal process determined that there was no fraud and these 2020 electoral results can be accepted.
 
-If you know of any factual evidence that contradicts this conclusion, please share it on [Discord](https://discord.com/channels/1429240627178110988/1429262910101786685).
+If you know of any factual evidence that contradicts this conclusion, please share it on [Discourse](https://averemo.discourse.group/).
 
 ### References
 * ["LOST, NOT STOLEN:

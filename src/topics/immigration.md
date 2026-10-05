@@ -7,8 +7,6 @@ title: "Immigration, Deportation, ICE"
 
 Donald Trump campaigned on stronger border enforcement and mass deportations. Many voters supported that message because they wanted to reduce illegal immigration and protect public safety. But it is fair to ask whether the administration’s approach is as effective, lawful, and focused as it claims to be.
 
-You can discuss this topic on [Discord](https://discord.com/channels/1429240627178110988/1538676024328331304).
-
 ## Who Is Being Deported?
 
 Trump campaigned on deporting violent criminal aliens.
