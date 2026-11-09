@@ -15,7 +15,7 @@ Trump campaigned on deporting violent criminal aliens.
 * Only 3% of people detained by ICE during the first 14 months of the second Trump administration had a violent felony conviction. [\[ABC\]](https://abcnews.com/US/3-recent-ice-detainees-violent-felony-conviction-government/story?id=132855202)
 * ICE often arrests immigrants at courthouses when they come for scheduled hearings. That can discourage people from following the proper legal process. [\[CBS/YouTube\]](https://www.youtube.com/watch?v=TlragvmJH7k) [\[CNS\]](https://www.courthousenews.com/federal-judge-rules-ice-cant-make-arrests-at-immigration-courthouses/)
 * Trump has repeated a claim about Haitian immigrants eating pets without evidence. [\[NBC\]](https://www.nbcnews.com/politics/2024-election/trump-pushes-baseless-claim-immigrants-eating-pets-rcna170537)
-* The Trump administration has also restricted asylum access for many people fleeing danger in Latin America. [\[AIC\]](https://www.americanimmigrationcouncil.org/press-release/supreme-court-allows-trump-to-block-asylum-seekers/) [\[BCJ\]](https://www.brennancenter.org/our-work/analysis-opinion/how-trump-administration-dismantling-refugee-and-asylum-programs)
+* The Trump administration has restricted asylum access for many people fleeing danger in Latin America. [\[AIC\]](https://www.americanimmigrationcouncil.org/press-release/supreme-court-allows-trump-to-block-asylum-seekers/) [\[BCJ\]](https://www.brennancenter.org/our-work/analysis-opinion/how-trump-administration-dismantling-refugee-and-asylum-programs)
 * Trump has welcomed white South African refugees who say they were facing persecution, even though the South African government disputes that claim. [\[AP/YouTube\]](https://www.youtube.com/watch?v=ob6rqfIKtpU) [\[CBS\]](https://www.cbsnews.com/news/trump-administration-thousands-more-afrikaners-refugees/) [\[PBS\]](https://www.pbs.org/newshour/world/a-hillside-of-white-crosses-fuels-a-misleading-story-about-south-africas-farm-killings)
 * An ICE arrest in a rural Montana town prompts a conservative community to take action. [\[YouTube\]](https://youtu.be/n3PMfV9z5Qo?is=yNhKelIw3ihYm8fe)
 
@@ -44,12 +44,12 @@ ICE agents have appeared in many American cities wearing masks and driving unmar
 ## Is There Another Way to Solve This Problem?
 
 * Treat immigrants with dignity instead of demonizing them for political purposes.
-* Distinguish between violent criminals, asylum seekers, and people who are contributing to the economy.
-* Provide work visas for immigrants working in agriculture and other jobs where labor shortages are acute.
+* Consider whether immigrants are violent criminals, asylum seekers, or people who are contributing to the economy.
+* Provide work visas for immigrants working in agriculture and other jobs where labor is needed.
 * Fund immigration courts so that people do not have to wait years for a decision.
-* Improve border security without trampling due process or civil liberties.
+* Improve border security without denying due process or civil liberties.
 * Continue to deport violent criminal aliens when the legal process is followed.
-* Only deport people to their home countries if it is lawful and safe to do so.
+* Only deport people to their home countries, and only if it is lawful and safe to do so.
 * Support bipartisan legislation that addresses border enforcement, asylum, and legal immigration together.
 * Protect families and communities from the harms of indiscriminate enforcement.
 
@@ -57,5 +57,3 @@ ICE agents have appeared in many American cities wearing masks and driving unmar
 
 * [\[White House Immigration Page\]](https://www.whitehouse.gov/priorities/border-immigration/)
 * [\[Cato Institute\]](https://www.cato.org/immigration)
-
-
